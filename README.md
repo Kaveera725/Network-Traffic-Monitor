@@ -13,4 +13,16 @@ in real-time. Supports both **CLI** (with Rich for colors) and **GUI** (Tkinter)
 ## Installation ⚙️
 1. Clone the repo:
    ```bash
-   git clone 
+   git clone https://github.com/Kaveera725/Network-Traffic-Monitor.git
+   cd python-network-monitor
+
+ 2.Install dependencies:
+     > pip install psutil rich prettytable
+     
+     ## psutil (for fetching network stats)
+
+      > pip install psutil
+       
+     ## prettytable (for formatted tables)
+
+      > pip install prettytable
